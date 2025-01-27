@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML | Forms</title>
+</head>
+<body>
+    <form method="get">
+        <fieldset>
+            <legend>User Details !!</legend>
+            <label for="name">Enter your name: </label>
+            <input type="text" name="username" id="name" value="Saurabh Dixit" readonly disabled><br><br>
+            <label for="address">Enter your Address: </label>
+            <textarea rows="6" cols="20" name="useraddress" id="address"></textarea><br><br>
+            <label for="dob">DOB:  </label>
+            <input type="date" name="userdob" id="dob"><br><br>
+            <label for="password">Enter Password: </label>
+            <input type="password" id="password" name="userpassword" autofocus>
+            <br><br> 
+            <label for="email">Email:  </label>
+            <input type="email" name="usermail" id="email" placeholder="abc@example.com"><br>
+            Select Gender: <br>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <br>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <br><br>
+            Select Movies: <br>
+            <label for="avengers">Avengers</label>
+            <input type="checkbox" id="avengers" name="avengers">
+            <br>
+            <label for="thor">Thor</label>
+            <input type="checkbox" id="thor" name="thor">
+            <br><label for="ironman">Ironman</label>
+            <input type="checkbox" id="ironman" name="ironman">
+            <br>
+            <label for="number">Select Number:</label>
+            <input type="number" min="0" max="5" id="number"><br>
+            <input type="submit" value="Submit Form">
+        </fieldset>
+    </form>
+</body>
+</html>
