@@ -1,0 +1,11 @@
+body{
+    background-color: azure;
+}
+p{
+    color: rgb(82, 49, 82);
+    font-size: 30px;
+}
+div{
+    color: red;
+    font-weight: 900;
+}
